@@ -26,6 +26,9 @@ Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+Provides:
+ mavlink-v1-headers,
+ mavlink-v2-headers,
 Description: MAVLink aka Micro Air Vehicle Link - headers
  MAVLink is a very lightweight messaging protocol for communicating with drones (and between onboard drone components).
  .
