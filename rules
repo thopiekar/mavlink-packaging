@@ -5,3 +5,7 @@
 
 %:
 	dh $@ --buildsystem=cmake --builddirectory=build --parallel
+
+override_dh_auto_build:
+	dh_auto_build
+	rm -rf /usr/lib/python3/
