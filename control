@@ -1,5 +1,5 @@
 Source: mavlink
-Section: unknown
+Section: electronics
 Priority: optional
 Maintainer: Thomas Karl Pietrowski <thopiekar@unknown>
 Build-Depends:
