@@ -6,6 +6,7 @@ Build-Depends:
  debhelper-compat (= 12),
  cmake,
  python3-dev,
+ pymavlink,
 Standards-Version: 4.4.1
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Browser: https://salsa.debian.org/debian/mavlink
