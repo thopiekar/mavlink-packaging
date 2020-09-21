@@ -1,0 +1,20 @@
+Source: mavlink
+Section: unknown
+Priority: optional
+Maintainer: Thomas Karl Pietrowski <thopiekar@unknown>
+Build-Depends:
+ debhelper-compat (= 12),
+ cmake,
+ python3-dev,
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/mavlink
+#Vcs-Git: https://salsa.debian.org/debian/mavlink.git
+
+Package: mavlink
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
